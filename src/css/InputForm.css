@@ -1,0 +1,82 @@
+.form {
+    display: flex;
+    gap: 15px;
+    background: #2a2a2a;
+    padding: 20px;
+    border-radius: 8px;
+    margin: auto;
+    justify-content: space-around;
+    width: 1000px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+input {
+    background: #3a3a3a;
+    color: #ffffff;
+    border: 1px solid #555;
+    padding: 8px;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #888;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+button {
+    background: #555;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #777;
+}
+.calculation {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    background: #333;
+    display: flex;
+    height: 400px;
+    align-items: center;
+    justify-content: space-around;
+}
+.result {
+    margin-top: 15px;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.calculate_button {
+    font-weight: 400;
+    border-radius: 30px;
+    width: 100px;
+}
+
+input {
+    width: 90px;
+}
+
+.missile_weight, .missile_velocity, .missile_acceleration, .missile_thrust, .missile_burn_time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

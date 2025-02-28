@@ -6,30 +6,21 @@ export default function InputForm() {
             <form className="form">
 
                 <div className="missile_weight">
-                    <label>Missile Weight (kg)</label>
+                    <label>Propellant mass (kg)</label>
                     <input type="number" name="missileWeight" />
                 </div>
 
                 <div className="missile_velocity">
-                    <label>Missile Velocity (m/s)</label>
+                    <label>Structure Mass (kg)</label>
                     <input type="number" name="missileVelocity" />
                 </div>
 
                 <div className="missile_acceleration">
-                    <label>Missile Acceleration (m/s^2)</label>
+                    <label>Specific Impulse</label>
                     <input type="number" name="missileAcceleration" />
                 </div>
 
-                <div className="missile_thrust">
-                    <label>Missile Thrust (N)</label>
-                    <input type="number" name="missileThrust" />
-                </div>
-
-                <div className="missile_burn_time">
-                    <label>Missile Burn Time (s)</label>
-                    <input type="number" name="missileBurnTime" />
-                </div>
-                <button className='calculate_button'>Calculate</button>
+                <button className='calculate_button'>Add Configuration</button>
             </form>
             <div className='calculation'>
                 <div className='result'>Result</div>
